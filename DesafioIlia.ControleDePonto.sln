@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioIlia.ControleDePonto", "DesafioIlia.ControleDePonto.csproj", "{F95DCE12-C638-4994-A7D6-3F0B080BCE23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F95DCE12-C638-4994-A7D6-3F0B080BCE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95DCE12-C638-4994-A7D6-3F0B080BCE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95DCE12-C638-4994-A7D6-3F0B080BCE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95DCE12-C638-4994-A7D6-3F0B080BCE23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29CCFA99-7B7A-4D63-AC9D-5260320B93EC}
+	EndGlobalSection
+EndGlobal
