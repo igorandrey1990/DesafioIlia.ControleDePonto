@@ -13,6 +13,8 @@ namespace DesafioIlha.ControleDePonto.Services
             _momentoContext = momentoContext;
         }
 
+        public MomentoService() { }
+
         public List<Momento> GetMomentos() {
             return _momentoContext.Momentos.ToList();
         }

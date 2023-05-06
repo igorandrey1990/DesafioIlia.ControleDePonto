@@ -7,6 +7,8 @@ namespace DesafioIlha.ControleDePonto.DAL
     {
         public MomentoContext(DbContextOptions<MomentoContext> options) : base(options) { }
 
-        public DbSet<Momento> Momentos { get; set; } = null!;
+        public MomentoContext() { }
+
+        public virtual DbSet<Momento> Momentos { get; set; } = null!;
     }
 }
