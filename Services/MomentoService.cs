@@ -107,7 +107,7 @@ namespace DesafioIlha.ControleDePonto.Services
         private bool ValidarSeHorarioExiste(Momento momento, out Mensagem msg)
         {
             msg = new Mensagem();
-            var dateTime = momento.dataHora.ToString("yyyy-MM-dd HH:mm");
+            var dateTime = momento.dataHora.ToString("dd/MM/yyyy HH:mm");
             var momentos = from moments in this.GetMomentos()
                            where moments.dataHora.ToString().Substring(0, 16) == dateTime
                            select moments;
