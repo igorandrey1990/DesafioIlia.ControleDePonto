@@ -5,7 +5,7 @@ namespace DesafioIlha.ControleDePonto.DAL
 {
     public class MomentoContext : DbContext
     {
-        public MomentoContext(DbContextOptions<MomentoContext> options) : base(options) { }
+        public MomentoContext(DbContextOptions options) : base(options) { }
 
         public MomentoContext() { }
 

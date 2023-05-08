@@ -5,6 +5,6 @@ namespace DesafioIlha.ControleDePonto.Services.Interfaces
     public interface IMomentoService
     {
         List<Momento> GetMomentos();
-        Task<Momento> BaterPonto(Momento momento);
+        Momento BaterPonto(Momento momento, out Mensagem msg);
     }
 }

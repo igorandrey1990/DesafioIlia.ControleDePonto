@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioIlia.ControleDePonto", "DesafioIlia.ControleDePonto.csproj", "{F95DCE12-C638-4994-A7D6-3F0B080BCE23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioIlia.ControleDePontoTests", "..\DesafioIlia.ControleDePontoTests\DesafioIlia.ControleDePontoTests.csproj", "{51747B37-B3BD-4BAC-9B69-6D5F72A3E0DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioIlia.ControleDePont.Test", "..\DesafioIlia.ControleDePont.Test\DesafioIlia.ControleDePont.Test.csproj", "{6EE605E6-B95F-4C23-9E2C-D11EFB384F0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F95DCE12-C638-4994-A7D6-3F0B080BCE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F95DCE12-C638-4994-A7D6-3F0B080BCE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F95DCE12-C638-4994-A7D6-3F0B080BCE23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51747B37-B3BD-4BAC-9B69-6D5F72A3E0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51747B37-B3BD-4BAC-9B69-6D5F72A3E0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51747B37-B3BD-4BAC-9B69-6D5F72A3E0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51747B37-B3BD-4BAC-9B69-6D5F72A3E0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE605E6-B95F-4C23-9E2C-D11EFB384F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE605E6-B95F-4C23-9E2C-D11EFB384F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE605E6-B95F-4C23-9E2C-D11EFB384F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE605E6-B95F-4C23-9E2C-D11EFB384F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -37,8 +37,12 @@ namespace DesafioIlha.ControleDePonto.Services
 
         private List<Registro> CriarRegistrosMes(string anoMes)
         {
+            int ano = int.Parse(anoMes.Split('/')[0]);
+            int mes = int.Parse(anoMes.Split('/')[1]);
+
             IQueryable<Momento> momentos = from m in _momentoContext.Momentos
-                                           where m.dataHora.ToString().Substring(0, 7) == anoMes
+                                           where m.dataHora.Month == mes
+                                           where m.dataHora.Year == ano
                                            orderby m.dataHora ascending
                                            select m;
 
